@@ -79,6 +79,11 @@ dev_dependencies:
       path: package/inject_generator
       ref: 7c3cbf6
 
+  # Used by tests. Not required to use `json_serializable`.
+  build_verify: ^1.0.0
+  path: ^1.5.1
+  test: ^1.6.0
+
 flutter_icons:
   image_path: "assets/icons/ic_launcher.png"
   android: true
